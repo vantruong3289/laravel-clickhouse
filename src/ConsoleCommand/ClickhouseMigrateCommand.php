@@ -22,7 +22,7 @@ final class ClickhouseMigrateCommand extends Command
 {
     use ConfirmableTrait;
 
-    protected static $defaultName = 'clickhouse:migrate';
+    protected $name = 'clickhouse:migrate';
 
     /**
      * {@inheritdoc}
