@@ -29,7 +29,7 @@ final class MakeClickhouseMigrationCommand extends Command
 
     protected $description = 'Create a new ClickHouse migration file';
 
-    protected static $defaultName = 'make:clickhouse-migration';
+    protected $name = 'make:clickhouse-migration';
 
     protected function getArguments(): array
     {
